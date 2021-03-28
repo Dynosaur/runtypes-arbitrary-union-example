@@ -1,4 +1,9 @@
 # runtypes-arbitrary-union-example
+### Usage
+`npm start`: run the project with compile time checks as normal, should get a compilation error
+
+`npm run ignore-errors`: run the project but ignore typescript compilation errors, should print validation results
+___
 After some quick testing, it appears that the following code works as intended, in versions `5.2.0` and `5.0.2`.
 ```
 import { Union, Literal } from 'runtypes';
